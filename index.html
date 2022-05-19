@@ -1,55 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Personal Portfolio</title>
-    
+
     <!-- FONT AWESOME LINK  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <!-- STYLESHEEET CSS LINK  -->
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    
-    <div class="container">
-        <nav class="navigation">
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Project</a>
-                </li>
-                <li>
-                    <a href="#">Testimonials</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <main class="main">
-            <section class="topbar">
-                <a class="logo" href="#">Portfolio</a>
-                <div class="toggle">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    </head>
 
-                    <i class="fa fa-bars" aria-hidden="true"></i>
+<body>
+    <div class="container">
+    <nav class="navigation">
+        <ul>
+            <li>
+            <a href="#banner">Home</a>
+            </li>
+            <li>
+            <a href="#about">About</a>
+            </li>
+            <li>
+            <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#">Project</a>
+            </li>
+            <li>
+                <a href="#">Testimonials</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            </ul>
+            </nav>
+    <div class="main">
+        <section class="topbar">
+            <a class="logo" href="#">Portfolio</a>
+            <div class="toggle">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            </section>
+            <!-- BANNER START  -->
+            <section class="banner" id="banner">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="./images/user.jpg" alt="" />
                     </div>
-                    </section>
-                    </main>
+                    <h3>Muhhammad Irshad</h3>
+                    <p>I'm a Ceative Front End Web Developer</p>
+                    <a class="btn" href="cv/index.html">Dowload My CV</a>
+                    <ul class="socialMedia">
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+            <!-- ABOUT CODE START  -->
+            <section class="about adjust" id="about">
+                <div class="title">
+                    <h2>About Me</h2>
+                </div>
+            
+                <div class="content">
+                    <div class="textBox">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+                            asperiores et atque possimus similique. Asperiores animi aliquam
+                            voluptatibus sint et quasi, officiis natus magnam enim voluptate
+                            sed adipisci vitae accusamus harum voluptas quia minus nam
+                            aspernatur! Accusamus molestiae, tempora magnam hic eius totam
+                            inventore veritatis incidunt voluptatem sint optio fuga odit
+                            sed, recusandae ab obcaecati. Consequuntur voluptate a excepturi
+                            in exercitationem tempora dolores, inventore autem officia!
+                            Voluptatibus excepturi tempora eveniet! Eveniet repudiandae iste
+                            cupiditate quibusdam necessitatibus aperiam ut, atque ex
+                            officiis facere exercitationem cumque. <br />
+                            <br />
+                            Dicta dolorum nemo et aliquam fuga iste voluptatem velit
+                            incidunt porro. Repellat, doloremque alias, vero sit sed ad
+                            eveniet aliquid officia incidunt, itaque sapiente at
+                            voluptatibus expedita quos earum dolore tenetur quisquam
+                            quibusdam? Cum quam commodi architecto odit maiores quod, eum
+                            ipsam ullam veritatis totam dolore.
+                        </p>
                     </div>
+                    <div class="imgBx">
+                        <img src="./images/bg1.jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+<!-- SERVICES CODE START  -->
+<section class="services adjust" id="services">
+    <div class="title">
+        <h2>Our Services</h2>
+        <p>Lorem ipsum dolor, sit consectetur. Dolore, maiores?</p>
+    </div>
+
+    <div class="content">
+        <div class="serviceBox">
+            <img src="./images/icon1.png" alt="">
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet . Nihil eius ab fugit id! Quidem dolorem vero quaerat! Dignissimos quod
+                aliquam illo molestiae.</p>
+        </div>
+        <div class="serviceBox">
+            <img src="./images/icon2.png" alt="">
+            <h2>Web Development</h2>
+            <p>Lorem ipsum dolor sit amet . Nihil eius ab fugit id! Quidem dolorem vero quaerat! Dignissimos quod
+                aliquam illo molestiae.</p>
+        </div>
+        <div class="serviceBox">
+            <img src="./images/icon3.png" alt="">
+            <h2>Android Apps</h2>
+            <p>Lorem ipsum dolor sit amet . Nihil eius ab fugit id! Quidem dolorem vero quaerat! Dignissimos quod
+                aliquam illo molestiae.</p>
+        </div>
+        <div class="serviceBox">
+            <img src="./images/icon4.png" alt="">
+            <h2>Photography</h2>
+            <p>Lorem ipsum dolor sit amet . Nihil eius ab fugit id! Quidem dolorem vero quaerat! Dignissimos quod
+                aliquam illo molestiae.</p>
+        </div>
+        <div class="serviceBox">
+            <img src="./images/icon5.png" alt="">
+            <h2>Content Writing</h2>
+            <p>Lorem ipsum dolor sit amet . Nihil eius ab fugit id! Quidem dolorem vero quaerat! Dignissimos quod
+                aliquam illo molestiae.</p>
+        </div>
+        <div class="serviceBox">
+            <img src="./images/icon6.png" alt="">
+            <h2>Video Editing</h2>
+            <p>Lorem ipsum dolor sit amet . Nihil eius ab fugit id! Quidem dolorem vero quaerat! Dignissimos quod
+                aliquam illo molestiae.</p>
+        </div>
+    </div>
+
+    </div>
+    </div>
 
     <!-- JAVA SCRIPT LINK  -->
     <script src="./JS/main.js"></script>
